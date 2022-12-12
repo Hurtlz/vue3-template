@@ -2,7 +2,7 @@
  * @Author: luozhi
  * @Date: 2022-12-09 16:22:11
  * @LastEditors: luozhi
- * @LastEditTime: 2022-12-12 10:12:29
+ * @LastEditTime: 2022-12-12 10:52:37
  * @Descripttion: app标题
 -->
 <script setup lang="ts">
@@ -46,10 +46,7 @@ const goHome = () => {
 <template>
   <div class="app-head">
     <div class="app-head__title" @click="goHome">
-      <!-- <svg-icon class="icon" name="logo" /> -->
-      <el-icon :size="24" color="#fff">
-        <ChromeFilled />
-      </el-icon>
+      <svg-icon class="icon" name="vite" />
       <span class="text">Vue-Template</span>
     </div>
     <!-- <div
